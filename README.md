@@ -1,5 +1,3 @@
 # CapstoneIdeas
-Hello group members I just want to make sure this webhook works
-Test made by Rebekkah
-Test made by Caulos
-Test made by Kemi
+1. In order to Run this repository in the easiest way possible, you will need Visual Studio.
+2. Simply run Visual Studio and clone this repository, and it will allow you to work on the site.
