@@ -1,0 +1,19 @@
+Write a query that includes all of the player names matched with the name of the guild they are in. Make sure you include all players, even if they don't belong to a guild, and all guilds, even if they don't have a member. Any time a player does not belong to a guild, it should list NULL for the guild name. Any time a guild does not have any players, it should list NULL for the player name.
+True
+True
+U2FsdGVkX1/D9yDjK5HqZWlFX1TlqqCZUDfPUVO7rLY=
+U2FsdGVkX1/Z9VxjkYkYx6KDAsdxtL4i/cdzB4KWBRw=
+L R 25
+L C 3
+C 0 == itemName
+C 1 == guildName
+C 2 == quantity
+V 0,0 == Iron Sword
+V 0,1 == Grey Mountaineers
+V 0,2 == 6
+V 10,0 == Steel Bow
+V 10,1 == Shimmering Light
+V 10,2 == 10
+V 20,0 == Iron Staff
+V 20,1 == Shocking Power
+V 20,2 == 1

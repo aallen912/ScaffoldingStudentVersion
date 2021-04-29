@@ -1,0 +1,10 @@
+Write an SQL query to display all of the guilds whose names start with either V or W.
+True
+True
+U2FsdGVkX1+KZvY9w2f3k7AmMJ8lFogjSlkgNU56K0E=
+U2FsdGVkX18AjAumplayxC333nlWbEX2vFgS738yPj0=  
+V 0,1 == Winds of Grey
+V 1,1 == Vengeful Warriors
+C 0 == guildID
+L R 2
+L C 5

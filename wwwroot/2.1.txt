@@ -1,0 +1,11 @@
+How is it going?  
+True
+True 
+U2FsdGVkX19/GU4iNsQOHJfdYLWrffneczz5EBbQQqE= 
+U2FsdGVkX1/0D4/KDRMXkH7EfmEJhlKlFv1Uq0N07WQ=      
+L R 19
+L C 5
+V 0,0 == 1
+Parsons
+SELECT$$toggle::*::playerID::minLevel$$
+FROM $$toggle::Players::Guilds::Items$$;

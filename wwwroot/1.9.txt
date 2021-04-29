@@ -1,0 +1,7 @@
+How is your day?
+True
+Monkey
+L R 4
+L C 19
+V 0,5 == 15
+"SELECT$$toggle::*::PlayerID::BS$$"

@@ -1,0 +1,21 @@
+Write an SQL query with a cross join to list the items that are in Shimmering Light's guild treasury. You'll need to merge the Guilds and Guild Treasury tables together. Display all of the combined table's information. Make sure you list Guilds first in the FROM clause.
+True
+True
+U2FsdGVkX1/JM5noBmBhquIre2sosCqnk7qpvTiXwpg=
+U2FsdGVkX1/yMxh63NCsUd9+W47Ab2bw3faqmL5LEPM=
+L R 4
+L C 8
+C 0 == guildID
+C 1 == guildName
+C 6 == itemID
+V 0,0 == 30
+V 0,1 == Shimmering Light
+V 0,6 == 200
+V 2,0 == 30
+V 2,1 == Shimmering Light
+V 2,6 == 400
+Parson
+SELECT $$toggle::*::playerId::minLevel$$ ,$$toggle::*::playerId::type$$\n
+FROM $$toggle::Players::Guilds::Items$$;\n
+            
+ 

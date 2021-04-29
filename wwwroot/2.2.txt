@@ -1,0 +1,14 @@
+What is the SQL command to read all the data from the Guilds table?
+True
+True
+U2FsdGVkX18Yfsl1dOrUMMIoV/d4KUuykQukKcOsrlI=
+U2FsdGVkX18XLNfcxLFjvSvJBl5SMnKPzXEWyZCzf4E=    
+V 0,0 == 10
+C 0 == guildID
+L R 8
+L C 5
+Parsons
+SELECT $$toggle::*::playerId::minLevel$$
+FROM $$toggle::Players::Guilds::Items$$
+
+

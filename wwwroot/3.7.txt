@@ -1,0 +1,13 @@
+Write an SQL query to sort the Items table alphabetically by type. Any ties should be broken so that the two-handed items come before one-handed items.
+True
+True
+U2FsdGVkX1/4lo+PEzDY21NwukNsnAaR0OL00mJZo6Q=
+U2FsdGVkX18+13IU5YKSeDov/uWdw3Rsmr1TEerAcr0=    
+L R 9
+L C 5
+V 0,1 == Steel Battleaxe
+V 0,4 == 2
+V 1,1 == Bronze Axe
+V 1,4 == 1
+V 7,1 == Iron Staff
+V 7,4 == 2

@@ -1,0 +1,11 @@
+What is the SQL command to display only the minLevel and type of all of the records in the Items table? (Make sure minLevel is the first column and type is the second column)
+True
+True
+U2FsdGVkX19SuCx8+VGxvozjU94fPQCDvtVh1gl93Ik=
+U2FsdGVkX1/JpJn2fzpRq2gUL2//GfPRWGyNFfOEsS8=   
+V 0,0 == 5
+V 0,1 == sword
+C 0 == minLevel
+C 1 == type
+L R 9
+L C 2

@@ -1,0 +1,11 @@
+Write the SQL query to list all of the items with a minimum level less than or equal to 8.
+True
+True
+U2FsdGVkX1+fqW3JI4d1DvRYDue2iM7tvyoNzr+nDpk=
+U2FsdGVkX19xiVlgMBXJEHXByGCruz85WtcSG/26BrY= 
+L R 5
+V 0,1 == Iron Sword
+V 0,2 == 5
+V 1,1 == Steel Battleaxe
+V 1,2 == 8
+L C 5

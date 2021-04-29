@@ -1,0 +1,13 @@
+Expand the query given in this section by writing an SQL query to sort the types and numbers of items in the table so the most unique item types are at the top of the list.
+True
+True
+U2FsdGVkX1/gWcAPx3XMFbIMojeIiDejMPKEejBpQHs=
+U2FsdGVkX18IscUwGlHfjEmC2NR7IxZVPUquBqAeE1E=   
+L R 5
+L C 2
+V 0,0 == 1
+V 0,1 == staff
+V 2,0 == 2
+V 2,1 == bow
+V 4,0 == 3
+V 4,1 == axe

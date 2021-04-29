@@ -1,0 +1,11 @@
+Write an SQLite query to get the names of the four players with the lowest level.
+True
+True
+U2FsdGVkX1+EjdSphpHwseyajp8Xrcng3i0rIN5Xq6E=
+U2FsdGVkX1/jkcK7AkDzFUbI0DAO3pQaUhWKf2rKtwI=   
+L R 4
+L C 1
+V 0,0 == Apl
+V 1,0 == Xylo
+V 2,0 == Blothie
+V 3,0 == Babbage

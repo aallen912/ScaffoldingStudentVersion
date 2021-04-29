@@ -1,0 +1,11 @@
+Write an SQL query to display information about the guilds created in the last 28 days. To make things more interesting, the query should only include guilds whose players have total coins of more than 1400. Also, make sure the list is sorted, so the guild with the most coins is first. For columns, just display the name of the guild and the number of coins held by players of that guild. (Warning: The test cases for this question will only work until April 8, 2021)
+True
+True
+U2FsdGVkX1/mralLE4GxWEvkeuF/fquzMWhWYtzYu6I=
+U2FsdGVkX18nxYelA7X2b6WHW0EeorV5Ah6/cLfI+SQ=
+L R 2
+L C 2
+V 0,0 == Shocking Power
+V 0,1 == 3094
+V 1,0 == Grey Warriors
+V 1,1 == 1687

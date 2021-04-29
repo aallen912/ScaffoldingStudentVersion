@@ -1,0 +1,9 @@
+Create an SQL query to list all of the data and fields in the TradeTransactions table, but sort the table so that the most recent transactions are first.
+True
+True
+U2FsdGVkX19tYWogzb65YzG4R6dESm97FEtrUabhOIg=
+U2FsdGVkX18vxR2i0JuPpq4sHqHArfAWi6qy8ftwWko=
+L R 30
+L C 5
+C 0 == transactionID
+V 0,0 == 30

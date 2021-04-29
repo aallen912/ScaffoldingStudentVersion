@@ -1,0 +1,14 @@
+Write an SQL query to delete all of the Dwarven Axes in all guild treasuries. (This can be done using a subquery or using a manual step). To pass the test cases, list the guild name, item name, and quantity of all guild treasury items. Sort the list alphabetically by guild name first, then alphabetically by itemName. 
+True
+True
+U2FsdGVkX19scu2Ow8SRLhJhi1PZyTrpOmJdR+tgybg=
+U2FsdGVkX19RCFXblT9OBJWzdV8LfpZAIhSmUHTcVy8=
+L R 21
+L C 3
+V 0,0 == Gray Wolf Clan
+V 0,1 == Iron Staff
+V 0,2 == 2
+V 6,0 == Grey Warriors
+V 6,1 == Iron Sword
+V 7,0 == Grey Warriors
+V 7,1 == Steel Bow

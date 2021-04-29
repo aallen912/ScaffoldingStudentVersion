@@ -1,0 +1,11 @@
+Write the query that adds a new guild called Whims of Glory. It starts at level 1 and has no leader. Use October 24, 2020 as the creation date. To pass the test cases, write a SELECT query to display all of the guild information in the updated database. Sort the information alphabetically by guild name.
+True
+true
+U2FsdGVkX19sYgR8SE7ALiBMbKy+zh1oykNcaoLN0Hk=
+U2FsdGVkX19maJiEt1a9Mm+mStofeclSWoHEgf8FWpw=  
+L R 9
+L C 5
+V 7,1 == Whims of Glory
+V 7,2 == 1
+V 7,3 == 2020-10-24
+V 7,4 == NULL

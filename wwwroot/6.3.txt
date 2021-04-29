@@ -1,0 +1,19 @@
+Write an SQL query with an inner join to display the player name, player level, and guild name of all of the players with level greater than 8. Order the list so the player with the highest level is first. Make sure you order the columns as specified as well.
+True
+True
+U2FsdGVkX1912gmYnubh6EuKoTY7erKt4A9D+4X/le4=
+U2FsdGVkX183epqHM+0CVyiUboCbvF18fjAXj65seDk=
+L R 6
+L C 3
+C 0 == playerName
+C 1 == playerLevel
+C 2 == guildName
+V 0,0 == Elyse
+V 0,1 == 21
+V 0,2 == Grey Warriors
+V 3,0 == Wraithse
+V 3,1 == 12
+V 3,2 == Shimmering Light
+V 5,0 == Vera
+V 5,1 == 9
+V 5,2 == Winds of Grey

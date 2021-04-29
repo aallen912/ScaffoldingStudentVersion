@@ -1,0 +1,15 @@
+Create an SQL query using multiple joins to display information about the TradeTransactions. The result should include the name of the item, the name of the sending player, the name of the receiving player,  and the time of the transaction, in that order. It should be sorted alphabetically by the item name, then by the sending player's name, then by the receiving player's name. Note: This is one of the more complicated queries you've attempted so far. You'll need to join the Players table twice, once for the sending player and once for the receiving player - make sure you use aliases (the AS operator) for the table names to make everything work.
+True
+True
+U2FsdGVkX1/Nwh12vGBvojHTMncVBR333x+34H8oAnA=
+U2FsdGVkX18JxUpsqZVhWH2uNzKnHu8BZvVvK27jCew=
+L R 30
+L C 4
+V 0,0 == Bronze Axe
+V 0,1 == Rydomin
+V 0,2 == Elyse
+V 0,3 == 2021-01-04 05:01:03
+V 15,1 == Alyma
+V 15,2 == Aventop
+V 16,1 == Alyma
+V 16,2 == Blothie

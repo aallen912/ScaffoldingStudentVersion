@@ -1,0 +1,15 @@
+Write an SQL query to display only the names of the players that are either over level 10 or have more than 500 coins.
+True
+True
+U2FsdGVkX198fdkdG2Jh2SCbv6gnR2xSyIs8KWre8zM=
+U2FsdGVkX18xLv61/cjvARd3NnfT00MXONhwvicED9w=   
+V 0,0 == Elyse
+V 1,0 == Alyma
+V 2,0 == Radix
+V 3,0 == Cait
+V 4,0 == Mintee
+V 5,0 == Wraithse
+V 6,0 == Sava
+C 0 == playerName
+L R 7
+L C 1

@@ -1,0 +1,198 @@
+﻿@page
+@model CapstoneIdeas.Pages.QuestionPage2.IndexModel
+@{
+    ViewData["Title"] = "The Best Test";
+}
+
+<meta charset="utf8">
+<title>ScaffoldSQL: Learning SQL via test cases and Parson's problems</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.46.0/codemirror.css">
+<link rel="stylesheet" href="~/css/demo.css" />
+<link href="/css/parsons.css" rel="stylesheet" />
+<link href="/lib/prettify.css" rel="stylesheet" />
+<script src="/lib/prettify.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.46.0/codemirror.js"></script>
+
+<style>
+    .testcase_output {
+        background-color: lightgray;
+    }
+
+    .pass {
+        background-color: lightgreen;
+    }
+
+    .fail {
+        background-color: pink;
+    }
+</style>
+
+<body onload="loadBookDB()">
+    <h1>ScaffoldSQL</h1>
+
+    <main>
+        <label class='nohint' for='commands'>Enter some SQL</label>
+        <br class='nohint'>
+
+        <div id='hint_area' style='display: none;'>
+            <p>
+                Construct your SQL program by dragging lines of code from the left to the right. You can change the names of the (<span class="jsparson-toggle"></span>)
+                values by clicking them. You don't necessarily need to use all of the lines.
+            </p>
+            <div id="questionOutputHint" class="questionOutputHint">Question will be displayed here</div>
+            <div id="sortableTrash" class="sortable-code"><p>Trash</p></div>
+            <div id="sortable" class="sortable-code"><p>Solution</p></div>
+            <div style="clear:both;"></div>
+            <p>
+                <button class='button' href="#" id="newInstanceLink">Reshuffle</button>
+                <button class='button' href="#" id="feedbackLink">Execute</button>
+            </p>
+            <div style="clear:both;"></div>
+            <!-- <div id="unittest"></div> -->
+            <script src="/lib/jquery.min.js"></script>
+            <script src="/lib/jquery-ui.min.js"></script>
+            <script src="/lib/jquery.ui.touch-punch.min.js"></script>
+            <script src="/lib/underscore-min.js"></script>
+            <script src="/lib/lis.js"></script>
+            <script src="/js/parsons.js"></script>
+            <script src="/lib/skulpt.js"></script>
+            <script src="/lib/skulpt-stdlib.js"></script>
+
+        </div>
+        <div id="questionOutputNoHint" class="questionOutputNoHint">Question will be displayed here</div>
+
+        <textarea class='nohint' id="commands">
+SELECT *
+FROM Players;
+    </textarea>
+
+        <button id="execute" class="nohint button">Execute</button>
+        <button id="hint" class="nohint button invisible">Hint</button>
+
+        <!--
+        <button id='savedb' class="button">Save the db</button>
+        <label class="button">Load an SQLite database file: <input type='file' id='dbfile'></label>
+        -->
+        <p></p>
+        <div id="error" class="error"></div>
+
+        <div id="testcase_output" class="testcase_output">Test case results will be displayed here</div>
+
+        <pre id="output">Database output will be displayed here</pre>
+    </main>
+
+    <script type="text/javascript" src="~/js/scaffold_sql.js"></script>
+    <script type="text/javascript" src="~/js/sql.js"></script>
+    <script type="text/javascript" src="~/dist/worker.sql-wasm-debug.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js"></script>
+    <script type="text/javascript" src="~/js/readWriteData.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js" integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script>
+
+
+    @*if execute button has not been clicked, hide hint button, if it has been clicked, show hint button*@
+
+
+    @*<script>
+        //forces the student to attempt one free form text answer, when they hit execute, will make the hint button appear if they need it
+        $("#execute").click(function () {
+            $("#hint").removeClass("invisible")
+        });
+    </script>*@
+
+
+    <script>
+        //when the hint button is pressed, will hide question that gets moved to the bottom
+        $("#hint").click(function () {
+            $("#questionOutputNoHint").addClass("invisible")
+        });
+    </script>
+
+    <script>
+        //loads the text file contents
+        const params = new URLSearchParams(window.location.search)
+        if (params.has('q')) {
+            question = params.get('q')
+            //console.log("THIS IS THE QUESTION " + question);
+            //question.replace(/./, _)
+            //console.log("THIS IS THE QUESTION " + question);
+            let url = question + '.txt';
+            let request = new XMLHttpRequest();
+            request.open('GET', url);
+            request.responseType = 'text';
+            request.onload = function () {
+                readQuestions(request.response);
+            };
+            request.send()
+        }
+
+        var readQuestions = function (test_list) {
+            var tests = test_list.split(/\n/);
+            for (var i = 0; i < 1; i++) {
+                this.questionOutput = tests.shift();
+                if (i == 0) {
+                    console.log("QuestionOutput is " + this.questionOutput);
+                    //check 499
+                    //output = "<div>" + questionOutput + "</div>"
+                    document.getElementById("questionOutputNoHint").innerHTML = this.questionOutput;
+                    document.getElementById("questionOutputHint").innerHTML = this.questionOutput;
+
+                    //var sendQuestion = function (questionOutput);
+                    //return this.questionOutput
+                }
+            }
+            for (var i = 0; i < 2; i++) {
+                if (i == 0) {
+                    var parsonInterfaceInput = tests.shift();
+                    //console.log("parsons interface is " + parsonInterfaceInput);
+                    var parsonInterface = parsonInterfaceInput.toLowerCase();
+                    console.log("parsons interface is " + parsonInterface);
+                    var trueBool = "true";
+
+                    if (parsonInterface.includes(trueBool)) {
+
+                       $("#execute").click(function () {
+                           $("#hint").removeClass("invisible")
+                       });
+
+                    }
+
+                }
+                else if (i == 1) {
+
+                }
+
+
+            }
+
+        }
+
+
+
+    </script>
+
+
+
+    <script>
+        var timestamp = Date.now();
+        var d = new Date(timestamp);
+        document.write(d);
+
+        function One() {
+            var execTimestamp = Date.now();
+            var e = new Date(execTimestamp);
+            return execTimestamp;
+            document.write(e);
+        }
+
+        function Two() {
+            var hintTimestamp = Date.now();
+            var h = new Date(hintTimestamp);
+            return hintTimestamp;
+            document.write(h);
+        }
+    </script>
+</body>
+

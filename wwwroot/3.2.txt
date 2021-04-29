@@ -1,0 +1,9 @@
+Write a query to list all of the players whose level is greater than or equal to 2. But this time, do not include Blothie. She can't fight herself, after all.
+True
+True
+U2FsdGVkX1/TI7fbs22dUPrAUpT5E5LIgCHk+lM9uYU=
+U2FsdGVkX18gMuAw0jQhv9gOB9hYi7SZyyn+4Sc14jg=    
+V 0,2 == 21
+V 3,2 == 8
+V 4,2 == 2
+L R 16

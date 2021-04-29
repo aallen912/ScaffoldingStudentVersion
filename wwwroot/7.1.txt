@@ -1,0 +1,19 @@
+Write an SQL query to list all of the players in the game, sorted by the level of the guild they are in (with highest guild level first), then alphabetically by the player's name. The final answer should only display the player’s name, the guild’s name, and the level of the guild - in that order. If the player is not in a guild, it should display NULL for the guild name and guild level.
+True
+True
+U2FsdGVkX19OrxqXrOxdc2x7jy7xv6S/8uvUOKd/Pec=
+U2FsdGVkX19y9J0h2i5CCFtACIMygPKLChoqhmGPXWw=
+L R 19
+L C 3
+C 0 == playerName
+C 1 == guildName
+C 2 == guildLevel
+V 0,0 == Elyse
+V 0,1 == Grey Warriors
+V 0,2 == 20
+V 3,0 == Babbage
+V 3,1 == Shocking Power
+V 3,2 == 18
+V 16,0 == Apl
+V 16,1 == NULL
+V 16,2 == NULL

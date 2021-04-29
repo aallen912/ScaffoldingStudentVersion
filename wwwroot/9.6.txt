@@ -1,0 +1,15 @@
+Write an UPDATE statement that doubles the quantity of Iron Swords in all Guild Treasuries. To pass the test cases, write a SELECT statement that lists only the guild name and quantity of Iron Swords in that guild's treasury. Don't worry if it doesn't display 0 when a guild don't have an Iron Sword. Sort the entries by quantity, with the highest quantities first.
+True
+True
+U2FsdGVkX1+YX/pxe8VDhpMVYjcjgEdhasJtHq+WiZI=
+U2FsdGVkX1/MzF5ekzGWSAH0jO11KmT54rOcQeTTrrE=  
+L R 4
+L C 2
+V 0,0 == Shimmering Light
+V 0,1 == 32
+V 1,0 == Shocking Power
+V 1,1 == 28
+V 2,0 == Grey Warriors
+V 2,1 == 24
+V 3,0 == Grey Mountaineers
+V 3,1 == 12

@@ -1,0 +1,10 @@
+Write the SQL query to change Kylomer’s guild to the guild with ID 30. To pass the test cases, write a query to display the player name and guild name of all of the players in Kylomer's new guild (and only that guild). Sort the table alphabetically by player name.
+True
+True
+U2FsdGVkX18F775HxibxCafP+yRejN2aLUdIcm8YVUQ=
+U2FsdGVkX197ZCtxLMWjI6spgiL31V1ayZtFWUk+vS0=   
+L R 3
+L C 2
+V 0,0 == Kylomer
+V 0,1 == Shimmering Light
+V 1,0 == Mintee

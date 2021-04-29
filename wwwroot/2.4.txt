@@ -1,0 +1,9 @@
+What is the SQL command to display only the name of all the one-handed weapons?
+True
+True
+U2FsdGVkX195MaGli8gaF4aIxZVE6mt4M2e9C8aqZEo=
+U2FsdGVkX19Ro2VBY35Tez5PuWA/7Aovy5PFi98rEK4=    
+V 0,0 == Iron Sword
+C 0 == itemName
+L R 5
+L C 1

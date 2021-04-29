@@ -1,0 +1,9 @@
+Write a query to count the number of items in the game, but label the field Total Items.
+True
+True
+U2FsdGVkX183y5Jk/DA7Rh4wfzIHJDziRAOXKwvFBtQ=
+U2FsdGVkX19EGzVs1LRGhSao8/AlEVXTqb+6Bxy+TaY=   
+L R 1
+L C 1
+V 0,0 == 9
+C 0 == Total Items

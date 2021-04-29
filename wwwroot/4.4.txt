@@ -1,0 +1,10 @@
+Write an SQL query to sort the table created in this section in reverse alphabetical order. That is, sword should come first.
+True
+True
+U2FsdGVkX19kUPq2B6uckxVjRTL06VWnV2XLTUcZjp0=
+U2FsdGVkX1/wEqlji11x+ooNJutXgq3zoU2tfNL/00M=   
+L R 5
+L C 1
+V 0,0 == sword
+V 2,0 == dagger
+V 4,0 == axe

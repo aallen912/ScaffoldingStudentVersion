@@ -1,0 +1,13 @@
+Write an SQL query with an inner join to display the guild name and all the coins held by players of that guild. Order the query so the guild with the most coins comes first. (Hint: You'll need to use a join and an aggregate/GROUP BY here). As before, make sure you list the columns as specified.
+True
+True
+U2FsdGVkX18xaC5r+swn8KZa8Ux3z+sIPGmFrZjAQgg=
+U2FsdGVkX1+35bgn83KXWxoxB9hbRsSjR7uNUoSLo08=
+L R 7
+L C 2
+V 0,0 == Shocking Power
+V 0,1 == 3094
+V 3,0 == Grey Mountaineers
+V 3,1 == 336
+V 6,0 == Bitter Power Pals
+V 6,1 == 2

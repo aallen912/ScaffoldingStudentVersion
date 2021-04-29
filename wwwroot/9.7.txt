@@ -1,0 +1,8 @@
+Set Kylomer as the leader of the Grey Mountaineers guild. Use a subquery so you don't have to look up Kylomer's playerID. Hint: You can use a subquery in the SET clause as well. To pass the test cases, write a SELECT statement to list all of the guild information about guilds whose name starts with the letter G. Sort the table so that the guild with the highest level comes first.True
+True
+True
+U2FsdGVkX1/wHi2kUM18r7vbNNb2ltvkH9i7IM/7LcU=
+U2FsdGVkX1+BMCBD75TYfOOAPUUIApx98jf9Jk1mk8g=
+L R 3
+L C 5
+V 0,0 == 10

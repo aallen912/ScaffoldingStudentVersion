@@ -1,0 +1,15 @@
+Write a cross join to list the leader name and guild name of all the Guilds in the game. Remember that primary key and foreign key names do not need to match. Make sure the player names are listed first in the SELECT clause and the Players table is listed first in the FROM clause.
+True
+True
+U2FsdGVkX1/7KQWr2MCd/lLgJr7+APLpcWEkdWbjTGA=
+U2FsdGVkX19V2n7svjrYZsybQFixWlQVm/RbHd3C2VU=
+L R 6
+L C 2
+C 0 == playerName
+C 1 == guildName
+V 0,0 == Elyse
+V 0,1 == Grey Warriors
+V 3,0 == Plucki
+V 3,1 == Gray Wolf Clan
+V 5,0 == Sulin
+V 5,1 == Grey Mountaineers

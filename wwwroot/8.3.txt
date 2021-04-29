@@ -1,0 +1,13 @@
+Create an SQL query to list all of the information about the five most recent TradeTransactions.
+True
+True
+U2FsdGVkX1/WJZ5SVs1GoLuMux9Tq6Nj/iNwAMe/uXU=
+U2FsdGVkX18nSPNPsEhlg1TQ2pYcLD5ToKeGn1woVag=
+L R 5
+L C 5
+C 0 == transactionID
+V 0,0 == 30
+V 1,0 == 29
+V 2,0 == 1
+V 3,0 == 28
+V 4,0 == 27

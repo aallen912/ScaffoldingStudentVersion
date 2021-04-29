@@ -1,0 +1,9 @@
+Create an SQL query to list all of the data and fields in the TradeTransactions table.
+True
+True
+U2FsdGVkX18QZiGJ+6el+jqbC+ZX7cgFe6P8e7G0ANc=
+U2FsdGVkX19sP77vEUDjqNimGNkW54oljnv5zH6cTTA=
+L R 30
+L C 5
+C 0 == transactionID
+V 0,0 == 1

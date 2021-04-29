@@ -1,0 +1,11 @@
+Modify the query from 8.7, so that all guilds are included, even those without a leader. It should display No Leader when there isn't a leader for the guild. Hint: You'll need to replace one of the columns with coalesce. Hint #2: You also might need to change the kind of join you're using. The output should look exactly like the table right after this question.
+True
+True
+U2FsdGVkX18QnUVh0PzInGhKZJRAPLql23rzkT7YQi8=
+U2FsdGVkX1+5nTZH3ibk2JgtUt3t33y9xdM83BYuFdo=
+L R 8
+L C 1
+C 0 == Guild Summary
+V 0,0 == Grey Warriors (20) Leader: Elyse
+V 4,0 == Vengeful Warriors (4) Leader: No Leader
+V 7,0 == Shimmering Light (1) Leader: Mintee

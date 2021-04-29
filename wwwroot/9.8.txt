@@ -1,0 +1,10 @@
+Write the query to delete the guild called Vengeful Warriors – there are no players in the guild anyway. To pass the test cases, write a SELECT statement that displays just the names of all of the guilds in reverse alphabetical order.
+True
+True
+U2FsdGVkX18tCYyH0HUEJc4GidlHpCn1Vk6Qa7AHtfQ=
+U2FsdGVkX1+T567dOJcS9l5zv0lx6ZJX62DccgCqxy8=
+L R 7
+L C 1
+V 0,0 == Winds of Grey
+V 1,0 == Shocking Power
+V 6,0 == Bitter Power Pals

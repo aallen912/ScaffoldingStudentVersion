@@ -1,0 +1,13 @@
+In an earlier section, Elyse was looking for players to add to her guild, specifically using: SELECT * FROM Players WHERE guildID <> 10; How would you expand this query using the OR operator to include players that are not currently in a guild?
+True
+True
+U2FsdGVkX18Y6Nb/6N2R1vfI7Cf0wT/xAx+X1oTduq8=
+U2FsdGVkX191nk4e01bZZ3AAXyR8Er50ll6auP8IDAc=   
+V 0,1 == Alyma
+V 3,1 == Apl
+V 3,3 == NULL
+V 5,1 == Cait
+V 5,3 == NULL
+C 1 == playerName
+L R 17
+L C 5

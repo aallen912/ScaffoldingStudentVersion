@@ -1,0 +1,8 @@
+Write the SQL query to add a Golden Gun to the Items table. You can use whatever other values you want for the rest of the record. To pass the test cases, list out just the names of all of the items in the updated database in alphabetical order.
+True
+True
+U2FsdGVkX18zGqfENxQjZqqNVB11O24m3VQW7v4WWtw=
+U2FsdGVkX1/UpTmh+h7CM2g0z/bOERClvv89fFEIQOQ=  
+L R 10
+L C 1
+V 3,0 == Golden Gun

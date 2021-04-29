@@ -1,0 +1,19 @@
+Parsons1
+True
+Monkey
+L R 3
+L C 5
+V 3,5 == 17
+V 3,5 == 60
+V 3,6 == testColumn
+V 2,4 == 5
+Parsons
+SELECT$$toggle::tis::is::true$$
+SELECT$$toggle::1::2::3$$
+VALUES ('$$toggle::hello:: there:: myfriend$$' , '$$toggle::hello:: there:: myfriend$$' , '$$toggle::hello:: there:: myfriend$$' )
+SELECT$$toggle::1::2::3$$
+SELECT$$toggle::hello:: there:: my friend$$
+SELECT$$toggle::1::2::3$$;
+
+
+//boolean for if it's a table name or header name then we don't put single quotes

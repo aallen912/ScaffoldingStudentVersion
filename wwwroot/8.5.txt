@@ -1,0 +1,13 @@
+Write an SQL query to determine the trades that occurred the past 20 days. Only include the name of the item and the date/time it was traded, in that order. Order the results so the most recent transaction is first. (Warning: The test cases for this question will stop functioning properly after April 9, 2021)
+True
+True
+U2FsdGVkX1/zaEqmxCrFPRpyRmLhvb5dm60VLUKDSuY=
+U2FsdGVkX18aEPxaWT39DjrzeEICdaIt3fgGN3AdekY=
+L R 3
+L C 2
+V 0,0 == Steel Dagger
+V 0,1 == 2021-03-20 10:01:33
+V 1,0 == Steel Dagger
+V 1,1 == 2021-03-19 10:01:30
+V 2,0 == Iron Sword
+V 2,1 == 2021-03-18 10:01:03

@@ -1,0 +1,10 @@
+Write the query to put two Iron Staffs to the Guild Treasury of the Grey Mountaineers guild. There's no way for me to check if you do this using a manual step, but it is possible to do this using two subqueries instead. Rather than putting in the hard-coded numbers for guildID and itemID, replace them with subqueries. Recall that a subquery is just an SQL query surrounded by parentheses. To pass the test cases, display all of the information in the guild treasury table, sorted in ascending order, first by guildID, then by itemID.
+True
+True
+U2FsdGVkX19SCF75HjutbH5yJQYbJNqBlWkme2G8cvc=
+U2FsdGVkX1/sp5VBvCnAnQHVwwAkCS3rLfM8C88ZDms= 
+L R 25
+L C 3
+V 24,0 == 60
+V 24,1 == 800
+V 24,2 == 2

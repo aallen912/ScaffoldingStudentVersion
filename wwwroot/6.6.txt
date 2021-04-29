@@ -1,0 +1,15 @@
+Write a query using a natural join that displays all of the players and the guild they belong to. Only display the player name and the guild name, in that order. Sort the list alphabetically by guild name, then by player name. (You'll notice that this does not include the players that are not in a guild! We'll work on this problem in the next episode)
+True
+True
+U2FsdGVkX190LDv+ZdCZczfVbQIlXO/C55GdKTFzHB8=
+U2FsdGVkX19e7g6eW/RIwXcCLBMjp/SX/qulgE8nlEc=
+L R 16
+L C 2
+C 0 == playerName
+C 1 == guildName
+V 0,0 == Xylo
+V 0,1 == Bitter Power Pals
+V 4,0 == Rydomin
+V 4,1 == Grey Mountaineers
+V 8,0 == Mintee
+V 8,1 == Shimmering Light

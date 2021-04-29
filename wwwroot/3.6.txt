@@ -1,0 +1,12 @@
+Expand on Query Question 3.5 that created a leaderboard by writing an SQL query that sorts by player level, but if two players have the same level, the number of coins should act as a tiebreaker. A player with more coins should be ranked higher than a player with fewer coins having the same level.
+True
+True
+U2FsdGVkX1+5Z2m6hgRptzMBc0T0TbSh5dZIjXx7AwA=
+U2FsdGVkX1+3oeTZkG9ThKbf/R+TISRy3+WSv9DO8Ts=  
+V 0,1 == Elyse
+V 0,2 == 21
+V 8,1 == Radix
+V 8,2 == 8
+V 18,1 == Apl
+V 18,2 == 1
+L R 19

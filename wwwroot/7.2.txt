@@ -1,0 +1,15 @@
+Write a query that includes all of the player names matched with the name of the guild they are in. Make sure you include all players, even if they don't belong to a guild, and all guilds, even if they don't have a member. Any time a player does not belong to a guild, it should list NULL for the guild name. Any time a guild does not have any players, it should list NULL for the player name.
+True
+True
+U2FsdGVkX18f0TGcoEz0iERYpacHl6QwWCDoAuQQUZg=
+U2FsdGVkX19ogw+u2oCYJPUeng7uBolwGw19rBPXOh8=
+L R 20
+L C 2
+C 0 == playerName
+C 1 == guildName
+V 0,0 == NULL
+V 0,1 == Vengeful Warriors
+V 6,0 == Cait
+V 6,1 == NULL
+V 12,0 == Plucki
+V 12,1 == Gray Wolf Clan

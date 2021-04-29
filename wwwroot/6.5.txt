@@ -1,0 +1,11 @@
+Write a query using a natural join that lists the quantity of each item in the guild treasury.(Hint: This will require an aggregate). Only display the name of the item and the total quantity of items in allguild treasuries, in that order. Sort the list so that the highest quantities are listed first. Break any ties in the sorting using reverse alphabetical order on the name of the item.
+True
+True
+U2FsdGVkX19anPw8rffgCFwZmGqcVXWIihO2JyoZU0E=
+U2FsdGVkX18jEN+oqHXyTZu++tYB19hlOx+rbkKiG84=
+L R 8
+L C 2
+V 2,0 == Bronze Axe
+V 2,1 == 19
+V 7,0 == Iron Staff
+V 7,1 == 3

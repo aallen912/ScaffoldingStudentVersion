@@ -1,0 +1,11 @@
+This is a test question
+True
+True
+U2FsdGVkX1+A1Us8Bq4NMLnTEm58ogD0kpZYDzV6Rok=
+U2FsdGVkX1+TarAqOmClX3u9hrH8qIR+CupgR5qc8Ps=
+L R 2
+L C 2
+V 2,2 == test
+Parsons
+SELECT $$toggle::*::PlayerName::PlayerID$$
+FROM $$toggle::Guilds:: Players:: Dummy$$;

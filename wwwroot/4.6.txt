@@ -1,0 +1,14 @@
+Create an SQL query that aggregates all of the players in a guild together. Only include guilds where the total amount of coins held by players in the guild is over 1400. Display the guildID and the sum of the coins held by players in that guild.
+True
+True
+U2FsdGVkX191degj6h7Lct9xd4knZqYcAIEolBFYeCA=
+U2FsdGVkX19PjQXHGqK17FfjmEODTNwfBp6LMeYH050=   
+L R 3
+L C 2
+C 0 == guildID
+V 0,0 == 10
+V 0,1 == 1687
+V 1,0 == 20
+V 1,1 == 3094
+V 2,0 == 30
+V 2,1 == 1840

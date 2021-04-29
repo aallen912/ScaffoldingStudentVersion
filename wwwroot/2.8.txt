@@ -1,0 +1,9 @@
+Write an SQL query to display only the player name and number of coins of all of the players that have between 500 and 900 coins. Make sure the columns are in the order listed.
+True
+True
+U2FsdGVkX18URHXIgIAs+EdSQmSnx3sNezctoOVU+XU=
+U2FsdGVkX18n+BsCTAqlm97c+/NpEkdwZmYG4yEsVak=  
+V 0,0 == Radix
+V 1,0 == Mintee
+V 0,1 == 529
+V 1,1 == 889

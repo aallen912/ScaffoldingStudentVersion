@@ -1,0 +1,16 @@
+What is the SQL command to display all players whose level is greater than or equal to 10?
+True
+True
+U2FsdGVkX19SSw9XkeuaGwCInr3Fd7Dr0r3C+q9h3t8=
+U2FsdGVkX19+OatljzzGGR9ZVJND9+y+c4Xh8DDFWbc=  
+V 1,1 == Alyma
+V 4,4 == 951
+V 4,2 == 12
+C 0 == playerID
+C 2 == playerLevel
+L R 7
+L C 5
+Parsons
+SELECT$$toggle::*::playerID::minLevel$$
+FROM $$toggle::Players::Guilds::Items$$
+Where $$toggle::playerLevel::playerID::coins$$ >= $$toggle::8::9::10$$;

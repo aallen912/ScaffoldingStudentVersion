@@ -1,0 +1,12 @@
+Write an SQL query to create the leaderboard suggested by the title of this episode. Sort all the characters by level, with the highest-level player being first, second-highest level player, second, and so on.
+True
+True
+U2FsdGVkX1/AvCz52yWEcKeWQM7PXDzuhL5EtWCmkvY=
+U2FsdGVkX18IXcxfych+o42HtR3b1T2nb8F3L2+/0jM=   
+V 0,1 == Elyse
+V 0,2 == 21
+V 8,1 == Kennis
+V 8,2 == 8
+V 18,1 == Xylo
+V 18,2 == 1
+L R 19

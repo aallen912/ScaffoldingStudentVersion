@@ -1,0 +1,9 @@
+Write an SQL query to display only the number of axes, along with the text of the axe type. Hint: You should only need to add a WHERE clause to the query in this section.
+True
+True
+U2FsdGVkX18VULhkKhNB8Nhtltntvy1nJ0d/jz65iXc=
+U2FsdGVkX1/84EcPhh0Z4z7oCb37LVApGcfGYy0gb60=  
+L R 1
+L C 2
+V 0,0 == 3
+V 0,1 == axe

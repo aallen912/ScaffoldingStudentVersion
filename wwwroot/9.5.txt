@@ -1,0 +1,11 @@
+Write the SQL query to increase Bitter Power Pals' guild level by two. To pass the test cases, display the name and level of all of the guilds in the game. Sort the results alphabetically by guild name.
+True
+True
+U2FsdGVkX1+QxFeOVZ1R02YC9SFMWGyXStrVnkCCljQ=
+U2FsdGVkX1+ALfiKIORz6ogOmS4JjGMSPedXZ+xbQrY=  
+L R 8
+L C 2
+V 0,0 == Bitter Power Pals
+V 0,1 == 5
+V 5,0 == Shocking Power
+V 5,1 == 18

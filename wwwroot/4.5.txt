@@ -1,0 +1,11 @@
+Write an SQL query that lists the player levels in the game (and only the levels). Make sure it has no duplicates.
+True
+True
+U2FsdGVkX19Cuc5CJg5CxrxwSoI9LrcdK/9exgNJ3Yk=
+U2FsdGVkX1/HkKElhieYtuEvzaIB+hUE5N8WAvTvGak=   
+L R 15
+L C 1
+C 0 == playerLevel
+V 0,0 == 1
+V 6,0 == 8
+V 14,0 == 21

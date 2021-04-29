@@ -1,0 +1,9 @@
+Write a query to list all of the players whose level is greater than or equal to 2.
+True
+True
+U2FsdGVkX1/2im7uyHTay4YVh3/EX6iHBqXk343tylw=
+U2FsdGVkX1/9teKW2BWgtbZPdcztnj0sHDg5N+fBKms=  
+V 0,2 == 21
+V 1,2 == 18
+V 5,2 == 2
+L R 17

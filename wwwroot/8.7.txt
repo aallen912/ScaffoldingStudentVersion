@@ -1,0 +1,11 @@
+Write an SQL query to create a guild summary that includes the guild name, guild leader’s name, and guild level. Make sure the guilds are ordered from highest level to lowest level. It should match the table after this question **exactly**. Make sure the column is called Guild Summary. Answer the question in the SQL Interpreter above, then enter the code word here:
+True
+True
+U2FsdGVkX1/06ZkaknONbxqzda0p5P9lDnDtv01nmiY=
+U2FsdGVkX18uN+iRji36ZNdoDlM53pDZfVuYkMnkmQg=
+L R 6
+L C 1
+C 0 == Guild Summary
+V 0,0 == Grey Warriors (20) Leader: Elyse
+V 4,0 == Gray Wolf Clan (2) Leader: Plucki
+V 5,0 == Shimmering Light (1) Leader: Mintee
